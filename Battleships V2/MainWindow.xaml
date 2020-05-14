@@ -1,0 +1,56 @@
+﻿<Window x:Class="Battleships_V2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleships_V2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="200" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Source="Battle.png" ></Image>
+        <Label Grid.Row="1" HorizontalAlignment="Center">Please select GameMode:</Label>
+        <RadioButton Margin="4" Grid.Row="2" Checked="RadioButton_Checked">Player vs. Player</RadioButton>
+        <RadioButton Margin="4" Grid.Row="3" Checked="RadioButton_Checked">Player vs. Computer (Please select a difficulty fo Player 2!)</RadioButton>
+        <RadioButton Margin="4" Grid.Row="4" Checked="RadioButton_Checked">Computer vs. Computer (Please selct a difficulty for both players!)</RadioButton>
+        <Label Padding="10" Grid.Row="5">Please enter Player Names:</Label>
+        <Grid Grid.Row="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition  Width="*" MinWidth="200" />
+                <ColumnDefinition Width="300"  />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" >Player 1</Label>
+            <TextBox x:Name="Name1" Grid.Row="0" Grid.Column="1" PreviewMouseDown="TextBox_MouseDown" >Player 1</TextBox> 
+            <Label Grid.Row="1" Grid.Column="0" >Player 2</Label>
+            <TextBox x:Name="Name2" Grid.Row="1" Grid.Column="1" PreviewMouseDown="TextBox_MouseDown" >Player 2</TextBox>
+            <ComboBox x:Name="Difficulty_player_1" Grid.Row="0" Grid.Column="2" Text="Please set Computer Difficulty" IsEditable="True" >
+                <ComboBoxItem Content="Easier"/>
+                <ComboBoxItem Content="Harder"/>
+            </ComboBox>
+            <ComboBox x:Name="Difficulty_player_2" Grid.Row="1" Grid.Column="2" Text="Please set Computer Difficulty" IsEditable="True" Background="AliceBlue" >
+                <ComboBoxItem Content="Easier"/>
+                <ComboBoxItem Content="Harder"/>
+            </ComboBox>
+
+
+        </Grid>
+        <Button Margin="30" Grid.Row="7" Width="200" Click="Fertig_Click" >Fertig</Button>
+    </Grid>
+</Window>

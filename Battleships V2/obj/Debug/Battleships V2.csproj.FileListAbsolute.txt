@@ -1,0 +1,23 @@
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\bin\Debug\Battleships V2.exe.config
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\bin\Debug\Battleships V2.exe
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\bin\Debug\Battleships V2.pdb
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\MainWindow.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Misslefiring.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Rules.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Ship_placement.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Window1.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\App.g.cs
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2_MarkupCompile.cache
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2_MarkupCompile.lref
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\MainWindow.baml
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Misslefiring.baml
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Rules.baml
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Ship_placement.baml
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Window1.baml
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.g.resources
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships_V2.Properties.Resources.resources
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.csproj.GenerateResource.cache
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.csproj.CoreCompileInputs.cache
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.exe
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.pdb
+C:\Users\numme\source\repos\Battleships V2\Battleships V2\obj\Debug\Battleships V2.csprojAssemblyReference.cache
